@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.puzzle-wrap{
+    padding: 0;
+    margin: 0;
+    width: 400px;
+    height: 450px;
+}
+
+.puzzle{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.red {
+    width: 100%;
+    height: 100px;
+    background-color: #ff0000;
+}
+
+.green{
+    width: 150px;
+    height: 250px;
+    background-color: #00ff1e;
+    float: left;
+}
+
+.colors-wrap{
+    width: 250px;
+    height: 250px;
+    float: left;
+}
+
+.pn-wrap{
+    width: 150px;
+    height: auto;
+    float: left;
+}
+
+.purple{
+    height: 50px;
+    background-color: #cc00db;
+}
+
+.navy{
+    height: 100px;
+    background-color: #0093b7;
+}
+
+.beige{
+    float: left;
+    width: 100px;
+    height: 150px;
+    background-color: #ff9e6b;
+}
+
+.brown{
+    height: 100px;
+    background-color: #8c2727;
+}
+
+.yellow{
+    width: 100%;
+    height: 100px;
+    background-color: #ffe600;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
